@@ -850,8 +850,10 @@ span {
 .grid-second-card {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-left: -100px;
+    margin-left: -10px;
     gap: 30px;
+    background: #f8f9fa;
+    height: 500px;
 }
 
 .cash {
@@ -863,6 +865,7 @@ span {
     background: #243a5e;
     margin-top: 100px;
     margin-left: 350px;
+    height: 200px;
 }
 
 .cash h3 a {
@@ -886,6 +889,7 @@ span {
     width: 300px;
     background: #242429;
     margin-top: 100px;
+    height: 200px;
 }
 
 .chat h3 a {
@@ -909,7 +913,8 @@ span {
     width: 300px;
     background: #0062ad;
     margin-top: 100px;
-    margin-left: -220px;
+    margin-left: -175px;
+    height: 200px;
 }
 
 .book h3 a {
@@ -923,6 +928,111 @@ span {
 
 .book p {
     color: white;
+}
+
+
+/* footer */
+
+footer {
+    background: #f4f5f6;
+    /* height: 500px; */
+}
+
+#p {
+    color: transparent;
+}
+
+.azure-app {
+    margin-top: 30px;
+    margin-left: 350px;
+    padding: 10px;
+    border: 1px solid transparent;
+    width: 220px;
+    background: #eaebec;
+    height: 25px;
+}
+
+.footer {
+    display: flex;
+}
+
+.azure-app span {
+    margin-left: 10px;
+    margin-top: 3px;
+    font-weight: 600;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.azure-app {
+    margin-left: 290px;
+}
+
+.azure-app span a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.azure-app span a:hover {
+    text-decoration: underline;
+}
+
+#t:hover {
+    opacity: 0.5;
+}
+
+#i:hover {
+    opacity: 0.5;
+}
+
+#l:hover {
+    opacity: 0.5;
+}
+
+#y:hover {
+    opacity: 0.5;
+}
+
+.social-media {
+    padding: 40px;
+}
+
+.social-media img {
+    padding-left: 15px;
+}
+
+.social-media a {
+    text-decoration: none;
+}
+
+.nav-col ul {
+    list-style-type: none;
+}
+
+.nav-col h3 {
+    margin-left: 50px;
+    font-size: 12px;
+}
+
+.nav-col a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.nav-col a:hover {
+    text-decoration: underline;
+}
+
+.nav-col li {
+    font-size: 12px;
+    padding: 10px;
+}
+
+.nav-footer {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin-left: 250px;
 }
 
 
