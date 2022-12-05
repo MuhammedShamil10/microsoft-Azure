@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cloud Computing Services</title>
@@ -29,6 +30,19 @@
                 </ul>
             </a>
         </div>
+        <div id="navbar">
+            <a href="#">
+
+                <ul class="first">
+
+                    <li id="head-1">Azure</li>
+                    <li id="sales">Contact Sales</li>
+                    <li id="green-1"> Free account</li>
+                </ul>
+                <img class="microsoft-1" src="/img/logo/732221.png" width="25px" alt="">
+        </div>
+
+
         <!-- search-bar -->
         <div class="search-bar">
             <input type="text" placeholder="Search">
@@ -409,12 +423,74 @@
                 </ul>
             </div>
         </div>
+        <div class="language">
+            <label for="Change-language"><span>Change language</span> </label>
+            <select class="drop" name="down" id="Change-language">
+            <option value="english">English(US)</option>
+            <option value="">Portchuguice</option>
+            <option value="">French</option>
+            <option value="">German</option>
+            <option value="">Espanol</option>
+            <option value="">English(India)</option>
+            <option value="">English(Canada</option>
+            </select>
+        </div>
+        <div class="nav-row">
+            <ul>
+                <li><a href="http://">Diversity and inclusion</a></li>
+                <li><a href="http://">Accessibility</a></li>
+                <li><a href="http://">Privacy&Coolies</a></li>
+                <li><a href="http://">Data Protection Notice</a></li>
+                <li><a href="http://">Trademarks</a></li>
+                <li><a href="http://">Terms of use</a></li>
+                <li><a href="http://">Privacy Data Management</a></li>
+                <li style="display: none;"><a href="http://">Privacy Data Management</a></li>
 
+            </ul>
+        </div>
+        <div class="nav-row-two">
+            <ul>
+                <li><a href="http://">Contact us</a></li>
+                <li><a href="http://">Feedback</a></li>
+                <li><a href="http://">Sitemap</a></li>
+                <li><span id="span">ⒸMicrosft 2022</span> </li>
+            </ul>
+        </div>
+        <div class="message">
+            <img src="/img/logo/chat.svg" alt=""><span><a href="http://">Chat with Sales</a></span>
+        </div>
     </footer>
 </body>
 <script>
     "http://code.jquery.com%2Fjquery-1.11.3.min.js"
+
+    // window.onscroll = function() {
+    //     scrollFunction()
+    // };
+
+    // function scrollFunction() {
+    //     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    //         document.getElementById("navbar").style.top = "0";
+    //     } else {
+    //         document.getElementById("navbar").style.top = "-50px";
+    //     }
+    // }
 </script>
+<script>
+    // When the user scrolls down 20px from the top of the document, slide down the navbar
+    window.onscroll = function() {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("navbar").style.top = "0";
+        } else {
+            document.getElementById("navbar").style.top = "-50px";
+        }
+    }
+</script>
+
 
 
 </html>
