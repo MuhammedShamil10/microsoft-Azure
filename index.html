@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="/img/logo/732221.png">
 
+
 </head>
 
 <body>
@@ -67,6 +68,7 @@
     </nav>
     <header>
         <img id="header-wallpaper" src="/img/wallpaper/december-hero-desktop.webp" alt="" width="100%" height="650px">
+        <img class="small-view" src="/img/wallpaper/mobile-view/december-hero-mobile.png" alt="" width="100%" height="400px">
         <div class="main-head">
             <h1>Do more with less— <br> on Azure</h1>
             <p class="text">Migrate, modernize, and maximize your cloud and on-premises investments. <br> Get started now with pay-as-you-go pricing. There's no upfront commitment <br> —cancel anytime. Or try Azure free for up to 30 days.</p>
@@ -106,8 +108,9 @@
             </div>
         </div>
         <ul class="third-button">
-            <li id="no-border">New to Azure</li>
+            <li id="no-border">New to Azure?</li>
             <li><a id="border" href="#">Get an overview</a></li>
+            <li><a id="borderr" href="#">Get an overview</a></li>
         </ul>
         <div class="icons">
             <div class="row-text">
@@ -191,6 +194,30 @@
         </div>
         <div class="logo-area">
             <h2>Find out how these customers are innovating with Azure</h2>
+            <div class="small-slide">
+                <div class="images">
+                    <input type="radio" name="slide" id="img1" checked>
+                    <input type="radio" name="slide" id="img2">
+                    <input type="radio" name="slide" id="img3">
+                    <input type="radio" name="slide" id="img4">
+                    <img src="/img/wallpaper/forza5-desktop.webp" class="m1" alt="img1" width="840px">
+
+                    <img src="/img/wallpaper/nba-desktop.webp" class="m2" alt="img2" width="850px">
+                    <img src="/img/wallpaper/acs-desktop.webp" class="m3" alt="img3" width="860px">
+                    <img src="/img/wallpaper/pepsico-desktop.webp" class="m4" alt="img4" width="850px">
+                </div>
+                <div class="dots">
+                    <label for="img1"></label>
+                    <label for="img2"></label>
+                    <label for="img3"></label>
+                    <label for="img4"></label>
+                </div>
+            </div>
+            <div class="boxx">
+                <p>Turn 10 Studios created a turbocharged gaming architecture for <br> Forza Horizon 5 using Azure Kubernetes Service (AKS) and other <br> Azure services.</p>
+                <a href="#">Case study ></a>
+            </div>
+
             <div class="logos">
                 <a href="#">
                     <img id="nhs" src="/img/logo/nhs-logo.svg" alt="">
@@ -270,7 +297,7 @@
             </div>
         </div>
         <div class="third-wallpaper">
-            <img src="/img/wallpaper/desktop.webp" alt="" width="100%" height="750px">
+            <img id="game" src="/img/wallpaper/desktop.webp" alt="" width="100%" height="750px">
             <div class="box-text">
                 <p>See how a self-taught developer helped level the playing field <br> for people with disabilities by creating a video game controller <br> that uses voice and facial cues.</p>
                 <div class="video" id="myVideo">
@@ -292,7 +319,9 @@
                 <img class="arroww" src="/img/logo/white-arrow-transparent-png-22.png" alt="" width="15px">
             </div>
             </a>
-
+            <a href="http://">
+                <h4 class="play-btn" onclick="playVideo('')"><i class="fa fa-play-circle" style="font-size:80px;color: #fefefe"></i></h4>
+            </a>
 
             <div class="grid-second-card">
                 <div class="cash">
@@ -300,17 +329,18 @@
                     <h3><a href="http://">
                         Start building on Azure free</a>
                     </h3>
-                    <p>Get popular services free for 12 <br> months and 40+ other services free <br> always—plus $200 credit to use in your <br> first 30 days. </p>
+
+                    <p>Get popular services free for 12 months and 40+ other services free always—plus $200 credit to use in your first 30 days. </p>
                 </div>
                 <div class="chat">
                     <img src="/img/logo/icon-chat.svg" alt="" width="50px">
                     <h3><a href="http://">Connect with a sales specialist</a></h3>
-                    <p>Chat with or call a sales specialist for <br> personalized guidance.</p>
+                    <p>Chat with or call a sales specialist for personalized guidance.</p>
                 </div>
                 <div class="book">
                     <img src="/img/logo/book-alt.svg" alt="" width="40px">
                     <h3><a href="http://"> NEw to Azure? Lear at your <br> own pace</a></h3>
-                    <p>Learn the basics of cloud computing <br> and Azure with self-paced modules on <br> Microsoft Learn.</p>
+                    <p>Learn the basics of cloud computing and Azure with self-paced modules on Microsoft Learn.</p>
                 </div>
 
             </div>
@@ -335,7 +365,7 @@
         </div>
         <div class="nav-footer">
             <div class="nav-col">
-                <h3>Explore Azure</h3>
+                <h3 id="first-1">Explore Azure <span>+</span></h3>
                 <ul>
                     <li>
                         <a href="http://">What is Azure </a>
@@ -362,7 +392,7 @@
                 </ul>
             </div>
             <div class="nav-col">
-                <h3>Products and pricing</h3>
+                <h3 id="first-2">Products and pricing <span>+</span></h3>
                 <ul>
                     <li><a href="http://">Products</a></li>
                     <li><a href="http://">Pricing</a></li>
@@ -374,7 +404,7 @@
                 </ul>
             </div>
             <div class="nav-col">
-                <h3>Solutions and support</h3>
+                <h3 id="first-3">Solutions and support <span>+</span></h3>
                 <ul>
                     <li><a href="http://">Solutions</a></li>
                     <li><a href="http://">Resources for accelarating growth</a></li>
@@ -387,7 +417,7 @@
                 </ul>
             </div>
             <div class="nav-col">
-                <h3>Partners</h3>
+                <h3 id="first-4">Partners <span>+</span></h3>
                 <ul>
                     <li><a href="http://">Azure Marketplace</a></li>
                     <li><a href="http://">Find a partner</a></li>
@@ -396,7 +426,7 @@
                 </ul>
             </div>
             <div class="nav-col">
-                <h3>Resources</h3>
+                <h3 id="first-5">Resources <span>+</span></h3>
                 <ul>
                     <li><a href="http://">Training and cerifications</a></li>
                     <li><a href="http://">Documentation</a></li>
@@ -411,7 +441,7 @@
                 </ul>
             </div>
             <div class="nav-col">
-                <h3>Cloud computing</h3>
+                <h3 id="first-6">Cloud computing <span>+</span></h3>
                 <ul>
                     <li><a href="http://">What is macine learing?</a></li>
                     <li><a href="http://">What is the cloud?</a></li>
