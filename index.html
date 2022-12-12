@@ -10,12 +10,47 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="/img/logo/732221.png">
+    <!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'> -->
 
 
 </head>
 
 <body>
+
+    <div class="menu-btn">
+        <i class="fa fa-bars" style="font-size:25px"></i>
+    </div>
+
     <nav class="nav-bar">
+        <div class="mobile-right">
+            <img class="micro" src="/img/logo/732221.png" width="25px" alt="">
+
+            <nav>
+                <h3 class="logo">Azure</h3>
+                <hr>
+                <ul class="mobile-first">
+                    <li id="sales">Contact Sales</li>
+                    <li id="green-1"> Free account</li>
+                    <hr>
+                    <li><a href="http://"> Explore <span>></span></a></li>
+                    <hr>
+                    <li> <a href="http://"> Product <span>></span></a></li>
+                    <hr>
+                    <li> <a href="http://"> Solution <span id="a1">></span></a></li>
+                    <hr>
+                    <li> <a href="http://">Pricing<span id="a2">></span></a> </li>
+                    <hr>
+                    <li> <a href="http://">Partners <span id="a3"> ></span></a></li>
+                    <hr>
+                    <li> <a href="http://">Resources <span id="a4">></span></a></li>
+                    <hr>
+                    <p class="white"> <a href="http://">Learn </a></p>
+                    <hr>
+                    <p class="white"> <a href="http://">Support </a></p>
+                    <hr>
+                </ul>
+            </nav>
+        </div>
 
         <div class="right">
             <a href="#">
@@ -31,16 +66,24 @@
                 </ul>
             </a>
         </div>
-        <div id="navbar">
-            <a href="#">
+        <div class="bar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+            <li id="sig">Sign in</li>
+            <div id="navbar">
+                <a href="#">
 
-                <ul class="first">
+                    <ul class="first">
 
-                    <li id="head-1">Azure</li>
-                    <li id="sales">Contact Sales</li>
-                    <li id="green-1"> Free account</li>
-                </ul>
-                <img class="microsoft-1" src="/img/logo/732221.png" width="25px" alt="">
+                        <li id="head-1">Azure</li>
+                        <li id="sales">Contact Sales</li>
+                        <li id="green-1"> Free account</li>
+                    </ul>
+                    <img class="microsoft-1" src="/img/logo/732221.png" width="25px" alt="">
+            </div>
+
+
         </div>
 
 
@@ -112,10 +155,15 @@
             <li><a id="border" href="#">Get an overview</a></li>
             <li><a id="borderr" href="#">Get an overview</a></li>
         </ul>
+
         <div class="icons">
+
             <div class="row-text">
                 <h2>Start putting your ideas into action with Azure products and services</h2>
             </div>
+        </div>
+        <div class="mobile-list">
+            <button class="feature">Feature <span>&#8963;</span></button>
         </div>
         <div class="list-menu">
             <ul class="li">
@@ -184,8 +232,19 @@
                         <h3 id="services">Azure Cognitive Services</h3>
                     </a>
                 </div>
+
             </div>
+
         </div>
+        <div class="down">
+            <button class="feature-1">AI + machine learing <span><pre>  &#8963;</pre></span></button>
+            <button class="feature-2">Compute    <span><pre>        &#8963;</pre> </span></button>
+            <button class="feature-3">Containers <span><pre>       &#8963;</pre></span></button>
+            <button class="feature-4">Hybrid + multicoud <span><pre>   &#8963;</pre></span></button>
+            <button class="feature-5">Internet of Things(IoT) <span><pre> &#8963;</pre></span></button>
+            <h5 class="list-link"> <a href="http://">See all products (200+)></a> </h5>
+        </div>
+
         <div class="img-slide">
             <a href="#">
                 <img class="slide" src="/img/side-img/featured.webp" alt="" width="900px">
@@ -298,6 +357,10 @@
         </div>
         <div class="third-wallpaper">
             <img id="game" src="/img/wallpaper/desktop.webp" alt="" width="100%" height="750px">
+            <div class="mobile-text">
+                <p>See how a self-taught developer helped level the playing field for people with disabilities by creating a video game controller that uses voice and facial cues.</p>
+            </div>
+            <h3 class="check">Check out more developer stories</h3>
             <div class="box-text">
                 <p>See how a self-taught developer helped level the playing field <br> for people with disabilities by creating a video game controller <br> that uses voice and facial cues.</p>
                 <div class="video" id="myVideo">
@@ -312,6 +375,7 @@
                         <h3>Watch the story(4:51)</h3>
                     </a>
                 </div>
+
                 <div class="h5">
                     <a href="#">
                         <h5>Check out more developer stories </h5>
@@ -519,6 +583,10 @@
             document.getElementById("navbar").style.top = "-50px";
         }
     }
+</script>
+<script>
+    document.querySelector('.menu-btn').addEventListener('click', () => document.querySelector('.mobile-first')
+        .classList.toggle('show'));
 </script>
 
 
