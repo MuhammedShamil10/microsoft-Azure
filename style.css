@@ -1263,6 +1263,10 @@ select {
     .grid {
         margin-left: -200px;
     }
+    .message {
+        margin-left: 1200px;
+        width: 145px;
+    }
     .list-menu {
         margin-left: -50px;
     }
@@ -1286,6 +1290,10 @@ select {
 @media screen and (max-width:1440px) {
     .card-1 {
         width: 500px;
+    }
+    .message {
+        margin-left: 1000px;
+        width: 145px;
     }
     .card-1 img {
         width: 500px;
@@ -1467,12 +1475,19 @@ select {
         margin-left: 300px;
         margin-top: -20px;
     }
+    .message {
+        margin-left: 900px;
+        width: 145px;
+    }
 }
 
 @media screen and (max-width:1050px) {
     .second {
         background: url(/img/logo/favicon\ \(2\).ico)no-repeat 60% center;
         margin-top: -15px;
+    }
+    .message {
+        margin-left: 700px;
     }
     #sign {
         margin-left: 220px;
@@ -2066,6 +2081,9 @@ select {
 @media screen and (max-width:850px) {
     .box-1 img {
         width: 200px;
+    }
+    .message {
+        margin-left: 500px;
     }
     .small-slide {
         display: block;
@@ -2739,11 +2757,17 @@ select {
         margin-left: 15px;
         color: #0078D4;
     }
+    .message {
+        margin-left: 400px;
+    }
 }
 
 @media screen and (max-width:603px) {
     .bar {
         margin-left: 400px;
+    }
+    .message {
+        margin-left: 300px;
     }
     .micro {
         margin-left: 250px;
@@ -2954,6 +2978,9 @@ select {
         display: flex;
         margin-top: -30px;
         margin-left: 350px;
+    }
+    .message {
+        margin-left: 270px;
     }
     #blue {
         padding-left: 100px;
