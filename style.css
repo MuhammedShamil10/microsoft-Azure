@@ -3171,7 +3171,7 @@ select {
         width: 88%;
     }
     .card-3 {
-        width: 92%;
+        width: 92.5%;
     }
     .main-head {
         margin-top: -590px;
@@ -3258,5 +3258,9 @@ select {
     #black {
         padding-left: 15%;
         padding-right: 15%;
+    }
+    .grid h2 {
+        margin-left: -19px;
+        font-size: 16px;
     }
 }
