@@ -3165,13 +3165,13 @@ select {
         height: 290px;
     }
     .card-1 {
-        width: 400px;
+        width: 50%;
     }
     .card-2 {
-        width: 390px;
+        width: 88%;
     }
     .card-3 {
-        width: 411px;
+        width: 92%;
     }
     .main-head {
         margin-top: -590px;
@@ -3229,5 +3229,34 @@ select {
     footer {
         margin-top: -400px;
         height: 1050px;
+    }
+    .bar li {
+        width: 50%;
+        margin-left: 10px;
+    }
+    .bar svg {
+        margin-left: -15px;
+    }
+    .menu-btn {
+        margin-left: 10px;
+    }
+    .logo {
+        margin-left: 45px;
+    }
+    .micro {
+        margin-left: 200px;
+    }
+    .two-button {
+        width: 100%;
+        max-width: 100%;
+        margin-left: -30px;
+    }
+    #blue {
+        padding-left: 17%;
+        padding-right: 17%;
+    }
+    #black {
+        padding-left: 15%;
+        padding-right: 15%;
     }
 }
